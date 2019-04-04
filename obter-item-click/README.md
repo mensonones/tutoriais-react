@@ -13,5 +13,5 @@ A lista no HTML é construida iterando sobre o data, e a partir disto é mostrad
 
 Foi feito uma função chamada getItem(), onde é passado o evento e o item que se quer obter pelo click. Ao ser clickado, o item(objeto), será mostrado no console. 
 
-No trecho da linha 33 do código é passado a função para o evento onClick na tag <li>, pois é onde os itens estão sendo renderizados. Ao clickar no item os dados do item são mostrados no console. 
+No trecho da linha 33 do código é passado a função para o evento onClick na tag li, pois é onde os itens estão sendo renderizados. Ao clickar no item os dados do item são mostrados no console. 
 
