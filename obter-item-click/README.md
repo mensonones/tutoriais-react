@@ -1,16 +1,17 @@
-# start-react
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4fda8f2199e0424b9f140ae79a8b7fde)](https://www.codacy.com/app/mensones-1/start-react?utm_source=github.com&utm_medium=referral&utm_content=mensonones/start-react&utm_campaign=Badge_Grade)
-[![Maintainability](https://api.codeclimate.com/v1/badges/027dbbdbd0f71bd9b046/maintainability)](https://codeclimate.com/github/mensonones/start-react/maintainability)
-[![CircleCI](https://circleci.com/gh/mensonones/start-react.svg?style=svg)](https://circleci.com/gh/mensonones/start-react)
-[![Known Vulnerabilities](https://snyk.io/test/github/mensonones/start-react/badge.svg?targetFile=package.json)](https://snyk.io/test/github/mensonones/start-react?targetFile=package.json)
-![Sonar Report](https://sonarcloud.io/api/project_badges/measure?project=mensonones_start-react&metric=alert_status)
-
-Start Project: React + Webpack 4
-
-[Project in production](https://competent-bose-0ca5a3.netlify.com/)
-
 ## How to run the project
 
 First, navigate to the project folder through the terminal. After that, run the `npm install` command to install the project dependencies. After that, still in the project folder, enter the command `npm run start` to run the project. To generate the project build, simply run the `npm run build` command.
+
+
+Neste tutorial é exemplificado como obter o item de uma lista pelo click com dados obtidos de uma API. 
+
+Os comentários abaixo se referem ao arquivos: App.js
+
+Primeiramente os dados são obtidos dentro do ComponentDidMount, os mesmos são convertidos para json e após isso o resultado é passado para o array vazio,no caso o data: []
+
+A lista no HTML é construida iterando sobre o data, e a partir disto é mostrado os dados que queremos. 
+
+Foi feito uma função chamada getItem(), onde é passado o evento e o item que se quer obter pelo click. Ao ser clickado, o item(objeto), será mostrado no console. 
+
+No trecho da linha 33 do código é passado a função para o evento onClick na tag li, pois é onde os itens estão sendo renderizados. Ao clickar no item os dados do item são mostrados no console. 
 
